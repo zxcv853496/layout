@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+    .conterent{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        .content{
+            padding: 20px 0;
+            a{
+                color: white;
+                margin: 0 20px;
+                text-decoration: none;
+                transition: .3s;
+            }
+            a:hover{
+                color: red;
+            }
+        }
+    }
+}
